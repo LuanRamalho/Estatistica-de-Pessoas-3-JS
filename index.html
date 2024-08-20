@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas de Preferências de Disciplinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Estatísticas de Preferências de Disciplinas</h1>
+    <div class="input-container">
+        <label for="portugues">Português:</label>
+        <input type="number" id="portugues" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="ingles">Inglês:</label>
+        <input type="number" id="ingles" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="espanhol">Espanhol:</label>
+        <input type="number" id="espanhol" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="matematica">Matemática:</label>
+        <input type="number" id="matematica" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="biologia">Biologia:</label>
+        <input type="number" id="biologia" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="historia">História:</label>
+        <input type="number" id="historia" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="geografia">Geografia:</label>
+        <input type="number" id="geografia" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="informatica">Informática:</label>
+        <input type="number" id="informatica" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="filosofia">Filosofia:</label>
+        <input type="number" id="filosofia" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="sociologia">Sociologia:</label>
+        <input type="number" id="sociologia" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="fisica">Física:</label>
+        <input type="number" id="fisica" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="quimica">Química:</label>
+        <input type="number" id="quimica" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="geometria">Geometria:</label>
+        <input type="number" id="geometria" oninput="calcularEstatisticas()" value="0">
+        
+        <label for="trigonometria">Trigonometria:</label>
+        <input type="number" id="trigonometria" oninput="calcularEstatisticas()" value="0">
+    </div>
+
+    <h2>Total de Pessoas Pesquisadas: <span id="total-pesquisadas">0</span></h2>
+    
+    <ul id="estatisticas-lista">
+        <!-- As estatísticas serão geradas aqui -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.progress-bar-container {
+    background-color: LightGray;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 5px;
+    background-color: #76c7c0;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
